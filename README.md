@@ -1,14 +1,33 @@
-# astrbot-plugin-helloworld
+# astrbot_plugin_kaiqiu — 开球网数据查询插件
 
-AstrBot 插件模板 / A template plugin for AstrBot plugin feature
+查询开球网球员与赛事数据。
 
-> [!NOTE]
-> This repo is just a template of [AstrBot](https://github.com/AstrBotDevs/AstrBot) Plugin.
-> 
-> [AstrBot](https://github.com/AstrBotDevs/AstrBot) is an agentic assistant for both personal and group conversations. It can be deployed across dozens of mainstream instant messaging platforms, including QQ, Telegram, Feishu, DingTalk, Slack, LINE, Discord, Matrix, etc. In addition, it provides a reliable and extensible conversational AI infrastructure for individuals, developers, and teams. Whether you need a personal AI companion, an intelligent customer support agent, an automation assistant, or an enterprise knowledge base, AstrBot enables you to quickly build AI applications directly within your existing messaging workflows.
+## 指令
 
-# Supports
+| 指令 | 说明 | 示例 |
+|------|------|------|
+| `/kqw player <名称>` | 查询球员信息 | `/kqw player 球员名称` |
+| `/kqw match <赛事>` | 查询比赛信息 | `/kqw match 比赛名称` |
 
-- [AstrBot Repo](https://github.com/AstrBotDevs/AstrBot)
-- [AstrBot Plugin Development Docs (Chinese)](https://docs.astrbot.app/dev/star/plugin-new.html)
-- [AstrBot Plugin Development Docs (English)](https://docs.astrbot.app/en/dev/star/plugin-new.html)
+## 安装
+
+将本插件目录放入 `AstrBot/data/plugins/`，在 WebUI 中启用即可。
+
+## 配置
+
+暂无。后续按需扩展。
+
+## 项目结构
+
+```
+astrbot_plugin_kaiqiu/
+├── main.py          # 插件主入口
+├── metadata.yaml    # 插件元数据
+├── README.md        # 本文件
+└── LICENSE
+```
+
+
+## 许可证
+
+MIT
