@@ -1,6 +1,7 @@
 name: astrbot_plugin_kaiqiu
 display_name: 开球网数据查询
-desc: 查询开球网球员与赛事信息。支持 /kqw player 查询球员积分排名。
-version: v1.0
+desc: 查询开球网球员与赛事信息。支持 /kqw player 查询球员，/kqw match 查询赛事，/查看 查看详情，/搜索 分步查询。
+version: v1.1
 author: Finch0714
+logo: logo.png
 repo: https://github.com/Finch0714/astrbot_plugin_kaiqiu
